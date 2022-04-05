@@ -4,7 +4,7 @@
 
 This is a collection of samples of design patterns for training purposes.
 
-## Code Samples
+## Code examples
 
 - Pets. Implements the Singleton pattern.
 - State. Implements the State pattern.
