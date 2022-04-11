@@ -44,7 +44,7 @@ public class ConsoleJson implements Editor {
             printLnToConsole("{\n"+"\"doc\":[ ");
             for (int index = 0; index < textLines.size(); index++) {
                 StringBuilder stringBuilder = new StringBuilder();
-                stringBuilder.append("{\"line\":"+"\""+index+",\""+"\"text\":"+"\""+textLines.get(index)+"\"},");
+                stringBuilder.append("{\"line\":"+"\""+index+"\","+"\"text\":"+"\""+textLines.get(index)+"\"},");
                 printLnToConsole(stringBuilder.toString());
             }
             printLnToConsole("]\n}");
